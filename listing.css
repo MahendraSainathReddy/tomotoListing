@@ -1,0 +1,274 @@
+body{
+    margin: 0px;
+    font-family: "Open Sans", sans-serif;
+ }
+ 
+ a{
+     text-decoration: none;
+ }
+
+ hr{
+    border-radius: 100%;
+}
+ 
+ /*Header Section*/
+ header{
+     height: 60px;
+     /* border: 5px solid hotpink; */
+     background-color: #f4670e;
+ }
+ 
+ #brand{
+     float:left;
+     color:white;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-weight: bolder;
+     font-style: italic;
+     font-size: 50px;
+     margin-top: 0.25%;
+     margin-left: 7.5%;
+ }
+
+ #searchbar{
+    height: 3%;
+    width: 25%;
+    margin-left: 40%;
+    margin-top: 1%;
+    position: absolute  ;
+ }
+
+ #searchbar input{
+    border: 0px solid rgb(232, 232, 232);
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+}
+ 
+ #loginOptions{
+     float:right;
+     margin-top: 1.2%;
+     width: 15%;
+     font-size: 25px;
+     font-style: italic;
+ }
+
+ #loginOptions a{
+    color:white;
+    margin-left: 2%;
+}
+
+ #content{
+     width:85%;
+     margin-left:7.5%;
+     margin-top:3%;
+     display: inline-block;
+ }
+
+ .filter{
+     width:20%;
+     float: left;
+     color: rgb(79 79 79);
+ }
+
+ .filterHeaderTop{
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    font-size: 30px;
+    font-style: italic;
+ }
+
+ .filterHeader{
+    width: 70%;
+    height: 35px;
+    font-size: 25px;
+    margin: auto;
+ }
+
+.filterContent{
+    width: 60%;
+    height: 250px;
+    margin: auto;
+}
+
+.filterOption{
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+ .restContent{
+    /* height:1400px;  */
+    width:70%;
+    float: left;
+    margin-left: 7%;
+    margin-bottom: 4%;
+ }
+
+ .restContent hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+ }
+
+ .itemWhole{
+    width: 90%;
+    height: 210px;
+    display: flex;
+    color: rgb(79 79 79);
+    margin: auto;
+    box-shadow: 5px 5px 5px 0px rgb(79 79 79);
+ }
+
+ .itemWhole:hover{
+    transform: scale(1.025);
+}
+
+ .itemWhole a{
+    color: rgb(79 79 79);
+ }
+
+ .itemWhole a:hover{
+    color: #f4670e;
+ }
+
+ .itemImage{
+    height: 100%;
+    width: 20%;
+ }
+
+ .itemImage img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10%;
+ }
+ .vl{
+    border-left: 3px solid rgb(79 79 79);
+    margin-left: 3%;
+    border-radius: 100%;
+
+ }
+
+ .itemDetails{
+    height: 100%;
+    width: 35%;
+    margin-left: 5%;
+ }
+ .itemName{
+    width: 100%;
+    height: 20%;
+    font-weight: bold;
+    font-size: 23px;
+    
+ }
+
+ .itemRestaurant{
+    width: 100%;
+    height: 20%;
+    margin-top: 2%;
+    font-weight: bold;
+    font-size: 15px;
+ }
+
+ .itemDescription{
+    width: 100%;
+    height: 40%;
+    margin-top: 2%;
+    font-size: 15px;
+ }
+
+ .itemPricing{
+    height: 100%;
+    width: 30%;
+    margin-left: 5%;
+ }
+
+.itemPriceFinal{
+    width: 100%;
+    height: 20%;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.itemPriceOriginal{
+    width: 100%;
+    height: 20%;
+    margin-top: 2%;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.itemRating{
+    width: 100%;
+    height: 20%;
+    margin: auto;
+    margin-top: 2%;
+    font-size: 15px;
+}
+
+.itemRating span{
+    background-color: rgb(0, 167, 0);
+    color: white;
+}
+
+.freeDelivery{
+    width: 100%;
+    height: 20%;
+    margin: auto;
+    margin-top: 2%;
+    font-size: 15px;
+}
+
+
+ /*Footer Section*/
+
+#footer{
+    width: 100%;
+    background-color: #f4670e;
+    color: white;   
+}
+
+ footer{
+    width: 70%;
+    height: 320px;
+    margin-left: 15%;
+
+}
+
+#brandLogo{
+    height: 15%;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 40px;
+}
+
+#footerBoxes{
+    display: flex;
+}
+
+.footerdivs{
+    margin-top: 10px;
+    margin-left: 3.75%;
+    height: 60%;
+    width: 20%;
+}
+
+.footerdivs a img{
+    height: 30px;
+    width: 30px;
+}
+
+#bottomCopyright{
+    height: 20%;
+    width: 100%;
+    color: rgb(27 27 27);
+    float: left;
+    font-size: 15px;
+    text-align: center;
+}
+
+#bottomCopyright hr{
+    border-radius: 90%;
+}
